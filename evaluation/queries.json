@@ -1,0 +1,177 @@
+{
+  "description": "Candidate-level relevance judgments for Resume-RAG evaluation. Candidate IDs match data/resumes filename stems / Chroma metadata candidate_id.",
+  "relevance_notes": "Binary relevance unless noted. Labels grounded in resume text evidence, not filename alone.",
+  "queries": [
+    {
+      "id": "q001",
+      "difficulty": "easy",
+      "query": "Which candidates have hands-on experience with automated testing frameworks like Selenium?",
+      "relevant_candidates": ["gautami_qa_mobile_testing"]
+    },
+    {
+      "id": "q002",
+      "difficulty": "easy",
+      "query": "Who has strong experience as a Hadoop / big-data developer working with Hive and Spark?",
+      "relevant_candidates": ["bapuji_hadoop_developer", "mani_hadoop_developer"]
+    },
+    {
+      "id": "q003",
+      "difficulty": "easy",
+      "query": "Find PHP developers with substantial PHP and MySQL experience.",
+      "relevant_candidates": ["nilesh_php_lead", "venkata_php_developer"]
+    },
+    {
+      "id": "q004",
+      "difficulty": "easy",
+      "query": "Which candidates are Certified Scrum Masters or primarily work as Scrum Masters?",
+      "relevant_candidates": ["adhi_scrum_master", "ranjan_pm_scrum_master"]
+    },
+    {
+      "id": "q005",
+      "difficulty": "easy",
+      "query": "Recommend experienced project managers for an IT delivery leadership role.",
+      "relevant_candidates": [
+        "adelina_project_manager",
+        "avinash_project_manager",
+        "srivatsan_project_manager",
+        "ranjan_pm_scrum_master",
+        "raju_technical_program_manager"
+      ]
+    },
+    {
+      "id": "q006",
+      "difficulty": "medium",
+      "query": "We're hiring a senior Java/J2EE developer with Spring and Hibernate experience.",
+      "relevant_candidates": [
+        "ashwini_j2ee_developer",
+        "chetan_java_developer",
+        "anudeep_java_developer",
+        "mahesh_java_developer",
+        "pavan_java_developer",
+        "sharath_java_developer",
+        "sougandh_java_developer"
+      ]
+    },
+    {
+      "id": "q007",
+      "difficulty": "medium",
+      "query": "Who has mobile QA / Appium experience for Android and iOS testing?",
+      "relevant_candidates": ["gautami_qa_mobile_testing", "murali_pm_qa"]
+    },
+    {
+      "id": "q008",
+      "difficulty": "medium",
+      "query": "Find candidates with DevOps experience including Jenkins and Docker.",
+      "relevant_candidates": ["ravi_pm_devops", "pavan_java_developer", "sougandh_java_developer", "ashwini_j2ee_developer"]
+    },
+    {
+      "id": "q009",
+      "difficulty": "medium",
+      "query": "Which business systems analysts have experience with Tableau or similar BI reporting tools?",
+      "relevant_candidates": [
+        "amar_business_systems_analyst",
+        "krishna_business_systems_analyst",
+        "priyanka_business_systems_analyst"
+      ]
+    },
+    {
+      "id": "q010",
+      "difficulty": "medium",
+      "query": "Recommend Java developers who have used React or Angular on the frontend.",
+      "relevant_candidates": [
+        "anudeep_java_developer",
+        "ashwini_j2ee_developer",
+        "mahesh_java_developer",
+        "pavan_java_developer",
+        "sharath_java_developer",
+        "sougandh_java_developer"
+      ]
+    },
+    {
+      "id": "q011",
+      "difficulty": "medium",
+      "query": "Who has Amazon Web Services (AWS) cloud experience relevant to application delivery?",
+      "relevant_candidates": [
+        "chetan_java_developer",
+        "sougandh_java_developer",
+        "ravi_pm_devops",
+        "bapuji_hadoop_developer",
+        "pavan_java_developer",
+        "sharath_java_developer"
+      ]
+    },
+    {
+      "id": "q012",
+      "difficulty": "medium",
+      "query": "Find candidates with Kafka messaging experience.",
+      "relevant_candidates": [
+        "ashwini_j2ee_developer",
+        "bapuji_hadoop_developer",
+        "mani_hadoop_developer",
+        "pavan_java_developer",
+        "ravi_pm_devops",
+        "sharath_java_developer"
+      ]
+    },
+    {
+      "id": "q013",
+      "difficulty": "medium",
+      "query": "Which candidates have Laravel or other PHP MVC framework leadership experience?",
+      "relevant_candidates": ["nilesh_php_lead"]
+    },
+    {
+      "id": "q014",
+      "difficulty": "hard",
+      "query": "We're hiring a senior backend engineer with strong Java/J2EE experience and exposure to cloud platforms like AWS. Who would you recommend?",
+      "relevant_candidates": [
+        "chetan_java_developer",
+        "sougandh_java_developer",
+        "pavan_java_developer",
+        "ashwini_j2ee_developer",
+        "sharath_java_developer"
+      ]
+    },
+    {
+      "id": "q015",
+      "difficulty": "hard",
+      "query": "Need a Project Manager / DevOps automation architect familiar with Jenkins, Docker, and AWS.",
+      "relevant_candidates": ["ravi_pm_devops"]
+    },
+    {
+      "id": "q016",
+      "difficulty": "hard",
+      "query": "Looking for a Hadoop developer who also has Spark and AWS experience for a data platform role.",
+      "relevant_candidates": ["bapuji_hadoop_developer", "mani_hadoop_developer", "sharath_java_developer"]
+    },
+    {
+      "id": "q017",
+      "difficulty": "hard",
+      "query": "Find a QA engineer with Selenium WebDriver, TestNG, and Appium mobile automation experience.",
+      "relevant_candidates": ["gautami_qa_mobile_testing"]
+    },
+    {
+      "id": "q018",
+      "difficulty": "hard",
+      "query": "Recommend a technical program manager with Azure cloud and Tableau reporting exposure.",
+      "relevant_candidates": ["raju_technical_program_manager"]
+    },
+    {
+      "id": "q019",
+      "difficulty": "hard",
+      "query": "Who can lead PHP delivery using Laravel/Zend-style MVC frameworks and MySQL?",
+      "relevant_candidates": ["nilesh_php_lead"]
+    },
+    {
+      "id": "q020",
+      "difficulty": "hard",
+      "query": "Need a Java microservices developer experienced with Spring Boot and Docker-based deployment.",
+      "relevant_candidates": [
+        "ashwini_j2ee_developer",
+        "chetan_java_developer",
+        "sougandh_java_developer",
+        "pavan_java_developer",
+        "sharath_java_developer"
+      ]
+    }
+  ]
+}
