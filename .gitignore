@@ -23,6 +23,9 @@ build/
 logs/
 *.log
 
+# Resume PDFs contain PII — keep local only
+data/resumes/
+
 # Vector store (regenerable from resumes)
 data/vector_store/
 
